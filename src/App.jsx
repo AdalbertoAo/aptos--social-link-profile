@@ -20,7 +20,7 @@ const links = [
   },
   { 
     id: 3,
-    href: 'https://aptosacademy.ao', 
+    href: 'https://aptos.ao', 
     text: 'Official Website', 
     icon: <WebsiteIcon className="w-6 h-6" /> 
   },
