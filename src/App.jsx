@@ -38,7 +38,7 @@ const links = [
   },
   { 
     id: 6,
-    href: 'https://aptos-social-link-profile.vercel.app/', 
+    href: 'https://docs.google.com/forms/u/1/d/18vHxCmEldj0CHtS7RAwvrw7b_FePL9DyRieUgMCR6FE/edit', 
     text: 'Cadastra-se', 
     icon: <CadastroIcon className="w-6 h-6" /> 
   },
