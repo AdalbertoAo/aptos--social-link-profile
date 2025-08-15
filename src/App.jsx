@@ -8,9 +8,9 @@ import { FacebookIcon, InstagramIcon, LinkedInIcon, WebsiteIcon, WhatsAppIcon, C
 const links = [
   { 
     id: 1,
-    href: 'https://aptos-social-link-profile.vercel.app/', 
-    text: 'Fazer Cadastro', 
-    icon: <CadastroIcon className="w-6 h-6" /> 
+    href: 'https://aptos.ao', 
+    text: 'Official Website', 
+    icon: <WebsiteIcon className="w-6 h-6" /> 
   },
   { 
     id: 2,
@@ -38,9 +38,9 @@ const links = [
   },
   { 
     id: 6,
-    href: 'https://aptos.ao', 
-    text: 'Official Website', 
-    icon: <WebsiteIcon className="w-6 h-6" /> 
+    href: 'https://aptos-social-link-profile.vercel.app/', 
+    text: 'Cadastra-se', 
+    icon: <CadastroIcon className="w-6 h-6" /> 
   },
 ];
 
