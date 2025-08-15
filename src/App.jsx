@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import SocialButton from './components/SocialButton';
 import Footer from './components/Footer';
-import { FacebookIcon, InstagramIcon, WebsiteIcon, WhatsAppIcon } from './components/Icons';
+import { FacebookIcon, InstagramIcon, WebsiteIcon, WhatsAppIcon, CadastroIcon } from './components/Icons';
 
 const links = [
   { 
@@ -29,6 +29,12 @@ const links = [
     href: 'https://api.whatsapp.com/send?phone=244930160018&text=Ola, gostaria de saber mais sobre os vossos serviços.', 
     text: 'WhatsApp', 
     icon: <WhatsAppIcon className="w-6 h-6" /> 
+  },
+  { 
+    id: 5,
+    href: 'https://aptos-social-link-profile.vercel.app/', 
+    text: 'Fazer Cadastro', 
+    icon: <CadastroIcon className="w-6 h-6" /> 
   },
 ];
 
