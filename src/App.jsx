@@ -3,38 +3,44 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import SocialButton from './components/SocialButton';
 import Footer from './components/Footer';
-import { FacebookIcon, InstagramIcon, WebsiteIcon, WhatsAppIcon, CadastroIcon } from './components/Icons';
+import { FacebookIcon, InstagramIcon, LinkedInIcon, WebsiteIcon, WhatsAppIcon, CadastroIcon } from './components/Icons';
 
 const links = [
   { 
     id: 1,
+    href: 'https://aptos-social-link-profile.vercel.app/', 
+    text: 'Fazer Cadastro', 
+    icon: <CadastroIcon className="w-6 h-6" /> 
+  },
+  { 
+    id: 2,
     href: 'https://www.facebook.com/profile.php?id=61579357940340', 
     text: 'Facebook', 
     icon: <FacebookIcon className="w-6 h-6" /> 
   },
   { 
-    id: 2,
+    id: 3,
     href: 'https://www.instagram.com/aptos_academy/', 
     text: 'Instagram', 
     icon: <InstagramIcon className="w-6 h-6" />
   },
   { 
-    id: 3,
-    href: 'https://aptos.ao', 
-    text: 'Official Website', 
-    icon: <WebsiteIcon className="w-6 h-6" /> 
+    id: 4,
+    href: 'https://www.linkedin.com/company/aptos-academy/', 
+    text: 'LinkedIn', 
+    icon: <LinkedInIcon className="w-6 h-6" /> 
   },
   { 
-    id: 4,
+    id: 5,
     href: 'https://api.whatsapp.com/send?phone=244930160018&text=Ola, gostaria de saber mais sobre os vossos serviços.', 
     text: 'WhatsApp', 
     icon: <WhatsAppIcon className="w-6 h-6" /> 
   },
   { 
-    id: 5,
-    href: 'https://aptos-social-link-profile.vercel.app/', 
-    text: 'Fazer Cadastro', 
-    icon: <CadastroIcon className="w-6 h-6" /> 
+    id: 6,
+    href: 'https://aptos.ao', 
+    text: 'Official Website', 
+    icon: <WebsiteIcon className="w-6 h-6" /> 
   },
 ];
 
